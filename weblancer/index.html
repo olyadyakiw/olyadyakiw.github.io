@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, shrink-to-fit=no" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/libs.min.css" />
   <link rel="stylesheet" href="css/style.min.css" />
@@ -10,14 +12,17 @@
 </head>
 
 <body>
-  <header>
+  <div class="content">
+    <header>
    <div class="header__top">
       <div class="container">
          <div class="header__top-inner">
-            <div class="header__top-call">Call Toll-Free</div>
             <a href="tel:18888518525" class="header__top-phone">1-888-851-8525</a>
+            <div class="header__top-call">Call Toll-Free</div>
             <div class="header__top-wrapper">
-               <a href="" class="header__top-btn">Request a Callback</a>
+               <a class="header__top-btn" data-fancybox data-src="#modal-callback" href="javascript:;" >
+                  <span>Request a Callback</span>
+               </a>
             </div>
          </div>
       </div>
@@ -25,11 +30,11 @@
    <div class="header__bottom">
       <div class="container">
          <div class="header__bottom-inner">
-            <a href="#"><img src="images/logo.png" alt="logo"></a> 
+            <a href="#"><img class="header__logo" src="images/logo.png" alt="logo"></a>
             <nav class="menu">
                <ul class="menu__list">
                   <li class="menu__item">
-                     <a href="#" class="menu__link">Home</a>
+                     <a href="#" class="menu__link menu__link--active">Home</a>
                   </li>
                   <li class="menu__item">
                      <a href="#" class="menu__link">401(k)/IRA</a>
@@ -50,532 +55,734 @@
       </div>
    </div>
 </header>
-  <!-- WRITE CODE HERE -->
+    <!-- WRITE CODE HERE -->
 
-  <section class="hero">
-    <div class="hero__slider">
-      <div class="hero__slider-item" style="background-image: url(images/hero-bg.jpg);">
-        <div class="hero__slider-content">
-          <div class="container">
-            <div class="hero__slider-title">
-              Looking for the Highest Guaranteed Income?
+    <section class="hero">
+      <div class="hero__slider">
+        <div class="hero__slider-item" style="background-image: url(images/hero-bg.jpg);">
+          <div class="hero__slider-content">
+            <div class="container">
+              <div class="hero__slider-title">
+                Looking for the Highest Guaranteed Income?
+              </div>
+              <div class="hero__slider-guaranteed">
+                Get a guaranteed rate up to <span>7%</span>
+              </div>
+              <a href="annuities-3.html" class="hero__slider-btn">
+                Is An Annuity Right For You?
+              </a>
             </div>
-            <div class="hero__slider-guaranteed">
-              Get a guaranteed rate up to <span>7%</span>
+          </div>
+        </div>
+        <div class="hero__slider-item" style="background-image: url(images/hero-bg.jpg);">
+          <div class="hero__slider-content">
+            <div class="container">
+              <div class="hero__slider-title">
+                Looking for the Highest Guaranteed Income?
+              </div>
+              <div class="hero__slider-guaranteed">
+                Get a guaranteed rate up to <span>7%</span>
+              </div>
+              <a href="#" class="hero__slider-btn">
+                Is An Annuity Right For You?
+              </a>
             </div>
-            <a href="#" class="hero__slider-btn">
-              Is An Annuity Right For You?
-            </a>
           </div>
         </div>
-      </div>
-      <div class="hero__slider-item" style="background-image: url(images/hero-bg.jpg);">
-        <div class="hero__slider-content">
-          <div class="container">
-            <div class="hero__slider-title">
-              Looking for the Highest Guaranteed Income?
+        <div class="hero__slider-item" style="background-image: url(images/hero-bg.jpg);">
+          <div class="hero__slider-content">
+            <div class="container">
+              <div class="hero__slider-title">
+                Looking for the Highest Guaranteed Income?
+              </div>
+              <div class="hero__slider-guaranteed">
+                Get a guaranteed rate up to <span>7%</span>
+              </div>
+              <a href="#" class="hero__slider-btn">
+                Is An Annuity Right For You?
+              </a>
             </div>
-            <div class="hero__slider-guaranteed">
-              Get a guaranteed rate up to <span>7%</span>
-            </div>
-            <a href="#" class="hero__slider-btn">
-              Is An Annuity Right For You?
-            </a>
           </div>
         </div>
       </div>
-      <div class="hero__slider-item" style="background-image: url(images/hero-bg.jpg);">
-        <div class="hero__slider-content">
-          <div class="container">
-            <div class="hero__slider-title">
-              Looking for the Highest Guaranteed Income?
-            </div>
-            <div class="hero__slider-guaranteed">
-              Get a guaranteed rate up to <span>7%</span>
-            </div>
-            <a href="#" class="hero__slider-btn">
-              Is An Annuity Right For You?
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="company">
-    <div class="container">
-      <div class="company__title">A Company Truly Committed to Your Financial Future</div>
-      <div class="company__inner">
-        <div class="company__item">
-          <img src="images/company-1.png" alt="">
-          <div class="company__item-title">Looking for more growth efficiency ?</div>
-          <div class="company__item-text">
-            Annuities provide safe, tax-deferred growth for your retirement savings... but the returns you should expect
-            depend on your age, assets & location. Find out today if an annuity might be a good fit for you.
-          </div>
-        </div>
-        <div class="company__item">
-          <img src="images/company-2.png" alt="">
-          <div class="company__item-title">Сoncerned about market volatility ?</div>
-          <div class="company__item-text">
-            Annuities allow your retirement savings to participate in market returns and will always protect from market
-            fluctuations. The type of annuity may have 100% principle protection.
-          </div>
-        </div>
-        <div class="company__item">
-          <img src="images/company-3.png" alt="">
-          <div class="company__item-title">Need predictable lifetime income ?</div>
-          <div class="company__item-text">
-            An annuity payout can begin immediately or in the near future. The payouts can be for life or a set number
-            of years. Annuities are mainly used to provide steady income during retirement.
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="company__contacts">
-      <button class="company__btn">Ask a question</button>
-      <div class="company__contact">We will contact you </div>
-    </div>
-  </section>
-
-  <section class="info">
-    <div class="container">
-      <div class="info__inner">
-        <div class="info__item">
-          <div class="info__title">What is an Annuity?</div>
-          <div class="info__text">
-            Annuities are designed to help you achieve your goals for retirement savings. They provide insurance against
-            major financial risks, such as market losses and outliving your money.
-          </div>
-          <a href="" class="info__link">More information</a>
-        </div>
-        <div class="info__item">
-          <div class="info__title">How to Choose an Annuity ?</div>
-          <div class="info__text">
-            Each type of annuity has its own advantages. One of the biggest benefits with an annuity is that it can be
-            customizable based on your needs; whether it be saving for retirement, principle protection, or lifetime
-            income.
-          </div>
-          <a href="#" class="info__link">More information</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="zip-code">
-    <div class="container">
-      <div class="zip-code__inner">
-        <div class="zip-code__content">
-          <div class="zip-code__title">
-            Is An Annuity Right For You?
-          </div>
-          <div class="zip-code__text">
-            Because annuities are highly customizable, an annuity could be advantageous in most retirement planning
-            strategies and optimize retirement income alongside Social Security or dividend income.
-          </div>
-        </div>
-        <div class="zip-code__form">
-          <input class="zip-code__input" type="text">
-          <button class="zip-code__btn" type="submit">GO</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="choise">
-    <div class="choise__inner">
-      <img class="choise__img" src="images/choise-bg.jpg" alt="">
-      <div class="choise__content">
-        <div class="choise__item">
-          <div class="choise__title">Retire On Your Terms</div>
-          <div class="choise__text">
-            For years, annuityfidelity.com has been helping people find the right financial products to ensure they
-            reach their retirement goals.
-          </div>
-        </div>
-        <div class="choise__item">
-          <div class="choise__title">Make The Right Choices</div>
-          <div class="choise__text">
-            With many annuity options available, you can tailor your retirement portfolio to meet your specific
-            financial needs.
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="about">
-    <div class="container">
-      <div class="about__inner">
-        <div class="about__content">
-          <div class="about__title">About us</div>
-          <div class="about__text">
-            <a class="about__link" href="annuityfidelity.com">annuityfidelity.com</a>
-            is a consumer resource for retirement planning. We are not affiliated with any company,
-            nor do we sell any financial products or services. We only provide top rates from leading companies. We’ll
-            help you figure out which type of annuity is an optimal fit for your portfolio, and we provide the fastest
-            free annuity rate quotes leading you to a stress-free retirement.
-          </div>
-        </div>
-        <div class="about__images">
-          <div class="about__images-item">
-            <img src="images/about-1.png" alt="">
-            <div class="about__images-title">100% INDEPENDENT ADVICE</div>
-          </div>
-          <div class="about__images-item">
-            <img src="images/about-2.png" alt="">
-            <div class="about__images-title">A+ RATED COMPANIES</div>
-          </div>
-          <div class="about__images-item">
-            <img src="images/about-3.png" alt="">
-            <div class="about__images-title">FASTEST FREE QUOTES</div>
-          </div>
-          <div class="about__images-item">
-            <img src="images/about-4.png" alt="">
-            <div class="about__images-title">SAFE RETIREMENT INCOME</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="numbers">
-    <div class="container">
-      <div class="numbers__inner">
-        <div class="numbers__item">
-          <div class="numbers__num">40<span>+</span></div>
-          <div class="numbers__text">Years of Industry Experience</div>
-        </div>
-        <div class="numbers__item">
-          <div class="numbers__num">40<span>+</span></div>
-          <div class="numbers__text">Carriers</div>
-        </div>
-        <div class="numbers__item">
-          <div class="numbers__num numbers__num--500">500<span>+</span></div>
-          <div class="numbers__text">Daily Quotes</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="offer">
-    <div class="offer__inner">
-      <div class="offer__content">
-        <div class="offer__title">What we Offer</div>
-        <div class="offer__text">
-          We provide expert, independent financial information. With over 40 years of experience we’ll ensure you’re
-          getting the best guidance in the industry. For businesses and individuals, you can rely on
-          annuityfidelity.com to deliver.
-        </div>
-      </div>
-      <div class="offer__guarantee">
-        <div class="offer__guarantee-title">Our Guarantee</div>
-        <ul class="offer__list">
-          <li class="offer__list-item">Up to <span>7%</span> returns, including no market risk</li>
-          <li class="offer__list-item">Lifetime <span>income</span></li>
-        </ul>
-      </div>
-    </div>
-  </section>
-
-  <section class="form">
-    <div class="form__inner">
-      <div class="form__left">
-        <!-- <img class="form__img" src="images/form-bg.jpg" alt=""> -->
-        <img class="form__logo" src="images/logo-black.png" alt="">
-        <div class="form__guarantee">up to <span>7%</span> guarantee</div>
-      </div>
-      <div class="form__right">
-        <form class="form__form">
-          <div class="form__title">GET FREE ANNUITY RATES</div>
-          <div class="form__wrapper"><input type="text" class="form__input" placeholder="First name *" required></div>
-          <div class="form__wrapper"><input type="text" class="form__input" placeholder="Last name *" required></div>
-          <div class="form__wrapper"><input type="text" class="form__input" placeholder="Phone *" required></div>
-          <div class="form__wrapper error"><input type="text" class="form__input" placeholder="Email *"> </div>
-          <div class="form__wrapper"><input type="text" class="form__input" placeholder="Zip-code *" required></div>
-          <select name="" id="" class="form__select">
-            <option value="" disabled selected hidden>Year of Birth</option>
-            <option value="$0 - $10,000">$0 - $10,000</option>
-            <option value="$10,000 - $25,000">$10,000 - $25,000</option>
-            <option value="$25,000 - $50,000">$25,000 - $50,000</option>
-            <option value="$50,000 - $100,000">$50,000 - $100,000</option>
-            <option value="$100,000 - $250,000">$100,000 - $250,000</option>
-            <option value="$250,000 - $500,000">$250,000 - $500,000</option>
-            <option value="$500,000 - $1Million">$500,000 - $1Million</option>
-            <option value="$1 Million - $3 Million">$1 Million - $3 Million</option>
-            <option value="More than $3 Million">More than $3 Million</option>
-          </select>
-          <select name="" id="" class="form__select">
-            <option value="" disabled selected hidden>Investment Amount </option>
-            <option value="$0 - $10,000">$0 - $10,000</option>
-            <option value="$10,000 - $25,000">$10,000 - $25,000</option>
-            <option value="$25,000 - $50,000">$25,000 - $50,000</option>
-            <option value="$50,000 - $100,000">$50,000 - $100,000</option>
-            <option value="$100,000 - $250,000">$100,000 - $250,000</option>
-            <option value="$250,000 - $500,000">$250,000 - $500,000</option>
-            <option value="$500,000 - $1Million">$500,000 - $1Million</option>
-            <option value="$1 Million - $3 Million">$1 Million - $3 Million</option>
-            <option value="More than $3 Million">More than $3 Million</option>
-          </select>
-          <button class="form__btn" type="submit">get MY RATES</button>
-        </form>
-        <div class="form__footer">
-          <div class="form__footer-text">Your information is 100% secure</div>
-          <img src="images/sitelock.png" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="quoting">
-    <div class="quoting__inner">
+    </section>
+    <section class="company">
       <div class="container">
-        <div class="quoting__title">
-          Our Quoting Process
-        </div>
-        <div class="quoting__text">
-          After we receive valid contact information, we will assign your inquiry to only one representative.
-          Once you fill out your contact information, a representative will contact you to gather suitability info
-          in order to build your customized quote. This representative will be the only person to contact you.
-          Your Information is Safe, Secure, and Never Sold.
+        <div class="company__title">A Company Truly Committed to Your Financial Future</div>
+        <div class="company__inner">
+          <div class="company__item">
+            <img src="images/company-1.png" alt="">
+            <div class="company__item-title">Looking for more growth efficiency ?</div>
+            <div class="company__item-text">
+              Annuities provide safe, tax-deferred growth for your retirement savings... but the returns you should
+              expect
+              depend on your age, assets & location. Find out today if an annuity might be a good fit for you.
+            </div>
+          </div>
+          <div class="company__item">
+            <img src="images/company-2.png" alt="">
+            <div class="company__item-title">Сoncerned about market volatility ?</div>
+            <div class="company__item-text">
+              Annuities allow your retirement savings to participate in market returns and will always protect from
+              market
+              fluctuations. The type of annuity may have 100% principle protection.
+            </div>
+          </div>
+          <div class="company__item">
+            <img src="images/company-3.png" alt="">
+            <div class="company__item-title">Need predictable lifetime income ?</div>
+            <div class="company__item-text">
+              An annuity payout can begin immediately or in the near future. The payouts can be for life or a set number
+              of years. Annuities are mainly used to provide steady income during retirement.
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="quoting__table">
-      <div class="container">
-        <table>
-          <thead>
-            <tr>
-              <th colspan="2"></th>
-              <th>annuities</th>
-              <th>Certificate of deposit (cds)</th>
-              <th>stocks</th>
-              <th>bonds</th>
-              <th>mutual funds and etfs</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td colspan="2">
-                <div class="table__title">Protected monthly lifetime income</div>
-                <p class="table__text">
-                  Offers a guaranteed and predictable stream of payments for life - may be available for both you and
-                  your spouse.
-                </p>
-              </td>
-              <td>yes</td>
-              <td>no</td>
-              <td>no</td>
-              <td>no</td>
-              <td>no</td>
-            </tr>
-            <tr>
-              <td colspan="2">
-                <div class="table__title">Can protect against market loss</div>
-                <p class="table__text">
-                  May offer a fixed return or principal protection that avoids market volatility.
-                </p>
-              </td>
-              <td>yes</td>
-              <td>yes</td>
-              <td>no</td>
-              <td>yes <span>(if held to maturity)</span></td>
-              <td>no</td>
-            </tr>
-            <tr>
-              <td colspan="2">
-                <div class="table__title">Tax-deferred growth for retirement </div>
-                <p class="table__text">Beyond what’s provided by 401(k) or similar employer - type plans.</p>
-              </td>
-              <td>yes</td>
-              <td>no</td>
-              <td>no</td>
-              <td>no <span>(though some are tax-exempt)</span> </td>
-              <td>no</td>
-            </tr>
-            <tr>
-              <td colspan="2">
-                <div class="table__title">A choice of income guarantees </div>
-                <p class="table__text">You can add enhanced lifetime income benefits for a free.</p>
-              </td>
-              <td>yes</td>
-              <td>no</td>
-              <td>no</td>
-              <td>no</td>
-              <td>no</td>
-            </tr>
-            <tr>
-              <td colspan="2">
-                <div class="table__title">Access to your money </div>
-                <p class="table__text">Can allow you to keep control of your money and get access if you need it.</p>
-              </td>
-              <td>yes</td>
-              <td>yes</td>
-              <td>yes</td>
-              <td>yes</td>
-              <td>yes</td>
-            </tr>
-            <tr>
-              <td colspan="2">
-                <div class="table__title">Guaranteed death benefit </div>
-                <p class="table__text">Can offer a guaranteed death benefit for your beneficiary when you pass away.</p>
-              </td>
-              <td>yes</td>
-              <td>yes</td>
-              <td>no</td>
-              <td>no</td>
-              <td>no</td>
-            </tr>
-          </tbody>
-        </table>
-        <ul class="quoting__table-list">
-          <li class="quoting__table-item">1 Except to the extent of periodic interest payments.</li>
-          <li class="quoting__table-item">2 All of these investments are equally tax-advantaged in qualified retirement
-            plans.</li>
-          <li class="quoting__table-item">3 Other than stocks or bonds, may be subject to fees or limitations based on
-            the type and structure of the investment. See your advisor for details.</li>
-        </ul>
+      <div class="company__contacts">
+        <button class="company__btn" data-fancybox data-src="#modal-callback-2">Ask a question</button>
+        <!-- <button class="company__btn" data-fancybox data-src="#searching">Ask a question</button> -->
+        <!-- <button class="company__btn" data-fancybox data-src="#searching-2">Ask a question</button> -->
+        <div class="company__contact">We will contact you </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="questions">
-    <div class="questions__inner">
-      <div class="questions__left">
-        <div class="questions__items">
+    <section class="info">
+      <div class="container">
+        <div class="info__inner">
+          <div class="info__item">
+            <div class="info__title">What is an Annuity?</div>
+            <div class="info__text">
+              Annuities are designed to help you achieve your goals for retirement savings. They provide insurance
+              against
+              major financial risks, such as market losses and outliving your money.
+            </div>
+            <a href="" class="info__link">More information</a>
+          </div>
+          <div class="info__item">
+            <div class="info__title">How to Choose an Annuity ?</div>
+            <div class="info__text">
+              Each type of annuity has its own advantages. One of the biggest benefits with an annuity is that it can be
+              customizable based on your needs; whether it be saving for retirement, principle protection, or lifetime
+              income.
+            </div>
+            <a href="#" class="info__link">More information</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="zip-code">
+      <div class="container">
+        <div class="zip-code__inner">
+          <div class="zip-code__content">
+            <div class="zip-code__title">
+              Is An Annuity Right For You?
+            </div>
+            <div class="zip-code__text">
+              Because annuities are highly customizable, an annuity could be advantageous in most retirement planning
+              strategies and optimize retirement income alongside Social Security or dividend income.
+            </div>
+          </div>
+          <div class="zip-code__form">
+            <input class="zip-code__input" type="text" placeholder="Zip Code">
+            <button class="zip-code__btn" type="submit" data-fancybox data-src="#zip-code-1">GO</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="choise">
+      <div class="container-fluid">
+        <div class="choise__inner">
+          <img class="choise__img" src="images/choise-bg.jpg" alt="">
+          <div class="choise__content">
+            <div class="choise__item">
+              <div class="choise__title">Retire On Your Terms</div>
+              <div class="choise__text">
+                For years, annuityfidelity.com has been helping people find the right financial products to ensure they
+                reach their retirement goals.
+              </div>
+            </div>
+            <div class="choise__item">
+              <div class="choise__title">Make The Right Choices</div>
+              <div class="choise__text">
+                With many annuity options available, you can tailor your retirement portfolio to meet your specific
+                financial needs.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <div class="about__inner">
+          <div class="about__content">
+            <div class="about__title">About us</div>
+            <div class="about__text">
+              <a class="about__link" href="annuityfidelity.com">Annuityfidelity.com</a>
+              is a consumer resource for retirement planning. We are not affiliated with any company,
+              nor do we sell any financial products or services. We only provide top rates from leading companies. We’ll
+              help you figure out which type of annuity is an optimal fit for your portfolio, and we provide the fastest
+              free annuity rate quotes leading you to a stress-free retirement.
+            </div>
+          </div>
+          <div class="about__images">
+            <div class="about__images-item">
+              <img src="images/about-1.png" alt="">
+              <div class="about__images-title">100% INDEPENDENT ADVICE</div>
+            </div>
+            <div class="about__images-item">
+              <img src="images/about-2.png" alt="">
+              <div class="about__images-title">A+ RATED COMPANIES</div>
+            </div>
+            <div class="about__images-item">
+              <img src="images/about-3.png" alt="">
+              <div class="about__images-title">FASTEST FREE QUOTES</div>
+            </div>
+            <div class="about__images-item">
+              <img src="images/about-4.png" alt="">
+              <div class="about__images-title">SAFE RETIREMENT INCOME</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="numbers">
+      <div class="container">
+        <div class="numbers__inner">
+          <div class="numbers__item">
+            <div class="numbers__num">40<span>+</span></div>
+            <div class="numbers__text">Years of Industry Experience</div>
+          </div>
+          <div class="numbers__item">
+            <div class="numbers__num">40<span>+</span></div>
+            <div class="numbers__text">Carriers</div>
+          </div>
+          <div class="numbers__item">
+            <div class="numbers__num numbers__num--500">500<span>+</span></div>
+            <div class="numbers__text">Daily Quotes</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offer">
+      <div class="container-fluid">
+        <div class="offer__inner">
+          <div class="offer__content">
+            <div class="offer__title">What we Offer</div>
+            <div class="offer__text">
+              We provide expert, independent financial information. With over 40 years of experience we’ll ensure
+              you’re
+              getting the best guidance in the industry. For businesses and individuals, you can rely on
+              annuityfidelity.com to deliver.
+            </div>
+          </div>
+          <div class="offer__guarantee">
+            <div class="offer__guarantee-title">Our Guarantee</div>
+            <ul class="offer__list">
+              <li class="offer__list-item">Up to <span>7%</span> returns, including no market risk</li>
+              <li class="offer__list-item">Lifetime <span>income</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form">
+      <div class="container-fluid">
+        <div class="form__inner">
+          <div class="form__left">
+            <img class="form__logo" src="images/logo-black.png" alt="">
+            <div class="form__guarantee">up to <span>7%</span> guarantee</div>
+          </div>
+          <div class="form__right">
+            <form class="form__form">
+              <div class="form__title">GET FREE ANNUITY RATES</div>
+              <div class="form__wrapper"><input type="text" class="form__input" placeholder="First name *" required>
+              </div>
+              <div class="form__wrapper"><input type="text" class="form__input" placeholder="Last name *" required>
+              </div>
+              <div class="form__wrapper"><input type="text" class="form__input" placeholder="Phone *" required></div>
+              <div class="form__wrapper error"><input type="text" class="form__input" placeholder="Email *"> </div>
+              <div class="form__wrapper"><input type="text" class="form__input" placeholder="Zip-code *" required></div>
+              <select name="" id="" class="form__select">
+                <option value="" disabled selected hidden>Year of Birth</option>
+                <option value="1999">1999</option>
+                <option value="1998">1998</option>
+                <option value="1997">1997</option>
+                <option value="1996">1996</option>
+                <option value="1995">1995</option>
+                <option value="1994">1994</option>
+                <option value="1993">1993</option>
+                <option value="1992">1992</option>
+                <option value="1991">1991</option>
+              </select>
+              <select name="" id="" class="form__select">
+                <option value="" disabled selected hidden>Investment Amount </option>
+                <option value="$0 - $10,000">$0 - $10,000</option>
+                <option value="$10,000 - $25,000">$10,000 - $25,000</option>
+                <option value="$25,000 - $50,000">$25,000 - $50,000</option>
+                <option value="$50,000 - $100,000">$50,000 - $100,000</option>
+                <option value="$100,000 - $250,000">$100,000 - $250,000</option>
+                <option value="$250,000 - $500,000">$250,000 - $500,000</option>
+                <option value="$500,000 - $1Million">$500,000 - $1Million</option>
+                <option value="$1 Million - $3 Million">$1 Million - $3 Million</option>
+                <option value="More than $3 Million">More than $3 Million</option>
+              </select>
+              <button class="form__btn" type="submit">get MY RATES</button>
+            </form>
+            <div class="form__footer">
+              <div class="form__footer-text">Your information is 100% secure</div>
+              <img src="images/sitelock.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="quoting">
+      <div class="quoting__inner">
+        <div class="container">
+          <div class="quoting__title">
+            Our Quoting Process
+          </div>
+          <div class="quoting__text">
+            After we receive valid contact information, we will assign your inquiry to only one representative.
+            Once you fill out your contact information, a representative will contact you to gather suitability info
+            in order to build your customized quote. This representative will be the only person to contact you.
+            Your Information is Safe, Secure, and Never Sold.
+          </div>
+        </div>
+      </div>
+      <div class="quoting__table">
+        <div class="container">
+          <table>
+            <thead>
+              <tr>
+                <th colspan="2" width="185"></th>
+                <th>annuities</th>
+                <th>Certificate of deposit (cds)</th>
+                <th>stocks</th>
+                <th>bonds</th>
+                <th>mutual funds and etfs</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td colspan="2">
+                  <div class="table__title">Protected monthly lifetime income</div>
+                  <p class="table__text">
+                    Offers a guaranteed and predictable stream of payments for life - may be available for both you and
+                    your spouse.
+                  </p>
+                </td>
+                <td>yes</td>
+                <td>no</td>
+                <td>no</td>
+                <td>no<sup><small><small>1</small></small></sup></td>
+                <td>no</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <div class="table__title">Can protect against market loss</div>
+                  <p class="table__text">
+                    May offer a fixed return or principal protection that avoids market volatility.
+                  </p>
+                </td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>no</td>
+                <td>yes <span>(if held to maturity)</span></td>
+                <td>no</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <div class="table__title">Tax-deferred growth for retirement<sup><small><small>2</small></small></sup>
+                  </div>
+                  <p class="table__text">Beyond what’s provided by 401(k) or similar employer - type plans.</p>
+                </td>
+                <td>yes</td>
+                <td>no</td>
+                <td>no</td>
+                <td>no <span>(though some are tax-exempt)</span> </td>
+                <td>no</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <div class="table__title">A choice of income guarantees </div>
+                  <p class="table__text">You can add enhanced lifetime income benefits for a free.</p>
+                </td>
+                <td>yes</td>
+                <td>no</td>
+                <td>no</td>
+                <td>no</td>
+                <td>no</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <div class="table__title">Access to your money<sup><small><small>3</small></small></sup></div>
+                  <p class="table__text">Can allow you to keep control of your money and get access if you need it.</p>
+                </td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>yes</td>
+              </tr>
+              <tr>
+                <td colspan="2">
+                  <div class="table__title">Guaranteed death benefit </div>
+                  <p class="table__text">Can offer a guaranteed death benefit for your beneficiary when you pass away.
+                  </p>
+                </td>
+                <td>yes</td>
+                <td>yes</td>
+                <td>no</td>
+                <td>no</td>
+                <td>no</td>
+              </tr>
+            </tbody>
+          </table>
+          <ul class="quoting__table-list">
+            <li class="quoting__table-item">1 Except to the extent of periodic interest payments.</li>
+            <li class="quoting__table-item">2 All of these investments are equally tax-advantaged in qualified
+              retirement
+              plans.</li>
+            <li class="quoting__table-item">3 Other than stocks or bonds, may be subject to fees or limitations based on
+              the type and structure of the investment. See your advisor for details.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="questions">
+      <div class="questions__inner">
+        <div class="questions__left">
           <div class="questions__title">Frequently Asked Questions</div>
-          <div class="questions__item questions__item--active">
-            <h4 class="questions__item-title">
-              What kind of financial advice do you give?
-            </h4>
-            <p class="questions__item-text">
-              <a href="#">Annuityfidelity.com</a> provides 100% independent custom tailored advice, including free
-              retirement planning
-              information based on your specific needs.
-            </p>
-          </div>
-          <div class="questions__item">
-            <h4 class="questions__item-title">
-              Are you affiliated with any insurance companies?
-            </h4>
-            <p class="questions__item-text">
-              We are not affiliated with any insurace carrier, which allows us to give 100% independent advice. Our 100%
-              unbiased advice allows us to provide customized qoutes guaranteed to be the best option in the industry
-              for your retirement.
-            </p>
-          </div>
-          <div class="questions__item">
-            <h4 class="questions__item-title">
-              Will this information cost me anything?
-            </h4>
-            <p class="questions__item-text">
-              All quotes received from annuityfidelity.com is free with no obligation to move forward. Your information
-              is safe, secure, and never sold.
-            </p>
+          <div class="questions__items">
+            <div class="questions__item questions__item--active">
+              <h4 class="questions__item-title">
+                What kind of financial advice do you give?
+              </h4>
+              <p class="questions__item-text">
+                <a href="#">Annuityfidelity.com</a> provides 100% independent custom tailored advice, including free
+                retirement planning
+                information based on your specific needs.
+              </p>
+            </div>
+            <div class="questions__item">
+              <h4 class="questions__item-title">
+                Are you affiliated with any insurance companies?
+              </h4>
+              <p class="questions__item-text">
+                We are not affiliated with any insurace carrier, which allows us to give 100% independent advice. Our
+                100%
+                unbiased advice allows us to provide customized qoutes guaranteed to be the best option in the industry
+                for your retirement.
+              </p>
+            </div>
+            <div class="questions__item">
+              <h4 class="questions__item-title">
+                Will this information cost me anything?
+              </h4>
+              <p class="questions__item-text">
+                All quotes received from annuityfidelity.com is free with no obligation to move forward. Your
+                information
+                is safe, secure, and never sold.
+              </p>
+            </div>
           </div>
         </div>
+        <div class="questions__right">
+          <div class="questions__right-title">Have any questions?</div>
+          <div class="questions__right-text">Leave your contact information, we will contact you shortly!</div>
+          <form class="questions__form">
+            <div class="form__wrapper"><input type="text" class="form__input" placeholder="Name *" required></div>
+            <div class="form__wrapper"><input type="text" class="form__input" placeholder="Email *" required> </div>
+            <div class="questions__message">Message</div>
+            <div class="form__wrapper"><textarea class="form__input"></textarea> </div>
+            <button type="submit" class="questions__btn">Send message</button>
+          </form>
+        </div>
       </div>
-      <div class="questions__right">
-        <div class="questions__right-title">Have any questions?</div>
-        <div class="questions__right-text">Leave your contact information, we will contact you shortly!</div>
-        <form class="questions__form">
-          <div class="form__wrapper"><input type="text" class="form__input" placeholder="Name *" required></div>
-          <div class="form__wrapper"><input type="text" class="form__input" placeholder="Email *" required> </div>
-          <div class="questions__message">Message</div>
-          <div class="form__wrapper"><textarea class="form__input"></textarea> </div>
-          <button type="submit" class="questions__btn">Send message</button>
-        </form>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="products">
-    <div class="container">
-      <div class="products__title">
-        Only Trusted Carriers with Trusted Products
+    <section class="products">
+      <div class="container">
+        <div class="products__title">
+          Only Trusted Carriers with Trusted Products
+        </div>
+        <div class="products__slider">
+          <div class="products__item">
+            <img class="products__img" src="images/product-1.png" alt="">
+          </div>
+          <div class="products__item">
+            <img class="products__img" src="images/product-2.png" alt="">
+          </div>
+          <div class="products__item">
+            <img class="products__img" src="images/product-3.png" alt="">
+          </div>
+          <div class="products__item">
+            <img class="products__img" src="images/product-4.png" alt="">
+          </div>
+          <div class="products__item">
+            <img class="products__img" src="images/product-5.png" alt="">
+          </div>
+          <div class="products__item">
+            <img class="products__img" src="images/product-6.png" alt="">
+          </div>
+          <div class="products__item">
+            <img class="products__img" src="images/product-1.png" alt="">
+          </div>
+          <div class="products__item">
+            <img class="products__img" src="images/product-2.png" alt="">
+          </div>
+          <div class="products__item">
+            <img class="products__img" src="images/product-3.png" alt="">
+          </div>
+          <div class="products__item">
+            <img class="products__img" src="images/product-4.png" alt="">
+          </div>
+          <div class="products__item">
+            <img class="products__img" src="images/product-5.png" alt="">
+          </div>
+          <div class="products__item">
+            <img class="products__img" src="images/product-6.png" alt="">
+          </div>
+        </div>
       </div>
-      <div class="products__slider">
-        <div class="products__item">
-          <img class="products__img" src="images/product-1.png" alt="">
-        </div>
-        <div class="products__item">
-          <img class="products__img" src="images/product-2.png" alt="">
-        </div>
-        <div class="products__item">
-          <img class="products__img" src="images/product-3.png" alt="">
-        </div>
-        <div class="products__item">
-          <img class="products__img" src="images/product-4.png" alt="">
-        </div>
-        <div class="products__item">
-          <img class="products__img" src="images/product-5.png" alt="">
-        </div>
-        <div class="products__item">
-          <img class="products__img" src="images/product-6.png" alt="">
-        </div>
-        <div class="products__item">
-          <img class="products__img" src="images/product-1.png" alt="">
-        </div>
-        <div class="products__item">
-          <img class="products__img" src="images/product-2.png" alt="">
-        </div>
-        <div class="products__item">
-          <img class="products__img" src="images/product-3.png" alt="">
-        </div>
-        <div class="products__item">
-          <img class="products__img" src="images/product-4.png" alt="">
-        </div>
-        <div class="products__item">
-          <img class="products__img" src="images/product-5.png" alt="">
-        </div>
-        <div class="products__item">
-          <img class="products__img" src="images/product-6.png" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
   <!-- STOP WRITE CODE -->
 
   <footer class="footer">
-    <div class="container">
-      <div class="footer__inner">
-        <img class="footer__logo" src="images/logo.png" alt="">
-        <div class="footer__middle">
-          <nav class="footer__menu">
-            <ul class="footer__list">
-              <li class="footer__item">
-                <a href="#" class="footer__link">Home</a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">401(k)/IRA</a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">Annuities</a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">Estate Planning</a>
-              </li>
-              <li class="footer__item">
-                <a href="#" class="footer__link">Retirement Strategies</a>
-              </li>
-            </ul>
-          </nav>
-          <ul class="footer__middle-privacy">
-            <li>Privacy Policy</li>
-            <li>Terms of Use</li>
-          </ul>
-          <div class="footer__middle-copy">© 2020 annuityfidelity.com . All Rights Reserved</div>
-        </div>
-        <div class="footer__end">
-          <div class="footer__btn">Is An Annuity Right For You?</div>
-          <div class="header__top-phone">1-888-851-8525</div>
-        </div>
-      </div>
-    </div>
-  </footer>
+   <div class="container">
+     <div class="footer__inner">
+       <div class="footer__left">
+         <img class="footer__logo" src="images/logo.png" alt="">
+         <div class="footer__middle">
+           <nav class="footer__menu">
+             <ul class="footer__list">
+               <li class="footer__item">
+                 <a href="#" class="footer__link">Home</a>
+               </li>
+               <li class="footer__item">
+                 <a href="#" class="footer__link">401(k)/IRA</a>
+               </li>
+               <li class="footer__item">
+                 <a href="#" class="footer__link">Annuities</a>
+               </li>
+               <li class="footer__item">
+                 <a href="#" class="footer__link">Estate Planning</a>
+               </li>
+               <li class="footer__item">
+                 <a href="#" class="footer__link">Retirement Strategies</a>
+               </li>
+             </ul>
+           </nav>
+           <ul class="footer__middle-privacy">
+             <li> <a href="#">Privacy Policy</a> </li>
+             <li> <a href="#">Terms of Use</a> </li>
+           </ul>
+           <div class="footer__middle-copy">© 2020 annuityfidelity.com . All Rights Reserved</div>
+         </div>
+       </div>
+       <div class="footer__end">
+         <div class="footer__btn">Is An Annuity Right For You?</div>
+         <div class="header__top-phone"> <a href="tel:18888518525">1-888-851-8525</a> </div>
+         <div class="footer__end-copy">© 2020 annuityfidelity.com . All Rights Reserved</div>
+       </div>
+     </div>
+   </div>
+ </footer>
+  <!-- Request a Callback - 1 -->
+<!-- Ask a questions - 2 -->
 
-  <script async src="js/webp.min.js"></script>
+<div id="modal-callback">
+   <div class="callback__title">Enter Your Contact Information</div>
+   <form class="form__form">
+      <div class="form__wrapper"><input type="text" class="form__input" placeholder="First name *" required>
+      </div>
+      <div class="form__wrapper"><input type="text" class="form__input" placeholder="Last name *" required>
+      </div>
+      <div class="form__wrapper"><input type="text" class="form__input" placeholder="Phone *" required></div>
+      <div class="form__wrapper error"><input type="text" class="form__input" placeholder="Email *"> </div>
+      <div class="form__wrapper"><input type="text" class="form__input" placeholder="Preferred time for call AM/PM"
+            required></div>
+      <select name="" id="" class="form__select">
+         <option value="" disabled selected hidden>Year of Birth</option>
+         <option value="1999">1999</option>
+         <option value="1998">1998</option>
+         <option value="1997">1997</option>
+         <option value="1996">1996</option>
+         <option value="1995">1995</option>
+         <option value="1994">1994</option>
+         <option value="1993">1993</option>
+         <option value="1992">1992</option>
+         <option value="1991">1991</option>
+      </select>
+      <button class="form__btn" type="submit">send</button>
+      <div class="form__footer">
+         <div class="form__footer-text">Your information is 100% secure</div>
+         <img src="images/sitelock.png" alt="">
+      </div>
+   </form>
+</div>
+
+<!-- Request a Callback - 2 -->
+<!-- Ask a question - 3 -->
+<!-- EXIT BLOCK - 5 -->
+
+<!-- Thank you! -->
+
+<div style="display: none;" id="thanks">
+   <div class="callback__title">sent</div>
+   <img class="thanks__success" src="../images/success.png" alt="">
+   <div class="thanks__title">Thank You!</div>
+   <div class="thanks__text">
+      Your request has been successfully sent! In a few moments a representative will contact you!
+   </div>
+</div>
+
+<!-- Ask a question - 2 -->
+
+<div id="modal-callback-2">
+   <div class="callback__title">Enter Your Contact Information</div>
+   <div class="callback__top">
+      <div class="callback__text">
+         Your request has been successfully sent! In a few moments a representative will contact you!
+      </div>
+      <a href="#" class="callback__btn">send</a>
+   </div>
+   <div class="callback__bottom">
+      <div class="callback__or">or</div>
+      <div class="header__top-call callback__toll">Toll-Free</div>
+      <a href="tel:18888518525" class="header__top-phone callback__phone">1-888-851-8525</a>
+   </div>
+</div>
+
+<!-- EXIT BLOCK - 1 -->
+
+<div class="exitblock">
+   <div class="modaltext">
+      <div class="callback__title">Get A Free Quote Before You Go!</div>
+      <div class="callback__annuity">Check <span>ANNUITY RATES</span> Now !</div>
+      <div class="callback__guarantee">Up to <span>7%</span> guarantee</div>
+      <div class="callback__text">Get <span>INSTANT, PERSONALIZED</span> rates from our database of over 40 annuity
+         providers.</div>
+      <form class="form__form">
+         <div class="form__wrapper"><input type="text" class="form__input" placeholder="Zip-Code *" required></div>
+         <select name="" id="" class="form__select">
+            <option value="" disabled selected hidden>Year of Birth</option>
+            <option value="1999">1999</option>
+            <option value="1998">1998</option>
+            <option value="1997">1997</option>
+            <option value="1996">1996</option>
+            <option value="1995">1995</option>
+            <option value="1994">1994</option>
+            <option value="1993">1993</option>
+            <option value="1992">1992</option>
+            <option value="1991">1991</option>
+         </select>
+         <button class="form__btn" type="submit">send</button>
+         <div class="form__footer">
+            <div class="form__footer-text">Your information is 100% secure</div>
+            <img src="images/sitelock.png" alt="">
+         </div>
+      </form>
+   </div>
+   <div class="closeblock">+</div>
+</div>
+
+<!-- EXIT BLOCK-2 -->
+
+<div style="display: none;" id="searching">
+   <div class="callback__title">Searching For The Top Rate</div>
+   <div class="searching__inner">
+      <div class="searching__item">
+         <svg class="spinner" viewBox="0 0 50 50">
+            <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+         </svg>
+         <div class="searching__info">Gathering data for: <span class="searching__city">Henrico, Virginia</span></div>
+      </div>
+      <div class="searching__item">
+         <svg class="spinner" viewBox="0 0 50 50">
+            <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+         </svg>
+         <div class="searching__info">Analyzing options for a person born in : <span class="searching__year">1969</span></div>
+      </div>
+      <div class="searching__item">
+         <svg class="spinner" viewBox="0 0 50 50">
+            <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+         </svg>
+         <div class="searching__info">Reviewing : <span class="searching__reviewing">A+ Rated Companies</span></div>
+      </div>
+   </div>
+</div>
+
+<!-- EXIT BLOCK-3 -->
+
+<div style="display: none;" id="searching-2">
+   <div class="callback__title">Searching For The Top Rate</div>
+   <div class="searching__inner">
+      <div class="searching__item">
+         <img src="../images/success.png" alt="">
+         <div class="searching__info">Gathering data for: <span class="searching__city">Henrico, Virginia</span></div>
+      </div>
+      <div class="searching__item">
+         <img src="../images/success.png" alt="">
+         <div class="searching__info">Analyzing options for a person born in : <span class="searching__year">1969</span></div>
+      </div>
+      <div class="searching__item">
+         <img src="../images/success.png" alt="">
+         <div class="searching__info">Reviewing : <span class="searching__reviewing">A+ Rated Companies</span></div>
+      </div>
+   </div>
+</div>
+
+<!-- Zip-Code 1 -->
+
+<div style="display: none;" id="zip-code-1">
+   <div class="callback__title">Searching For The Top Rate</div>
+   <div class="searching__inner">
+      <div class="searching__item">
+         <svg class="spinner" viewBox="0 0 50 50">
+            <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+         </svg>
+         <div class="searching__info">Gathering data for: <span class="searching__city">Henrico, Virginia</span></div>
+      </div>
+      <div class="searching__item">
+         <svg class="spinner" viewBox="0 0 50 50">
+            <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+         </svg>
+         <div class="searching__info">Reviewing : <span class="searching__reviewing">A+ Rated Companies</span></div>
+      </div>
+   </div>
+</div>
+
+<!-- Zip-Code 2 -->
+
+<div style="display: none;" id="zip-code-2">
+   <div class="callback__title">Searching For The Top Rate</div>
+   <div class="searching__inner">
+      <div class="searching__item">
+         <img src="../images/success.png" alt="">
+         <div class="searching__info">Gathering data for: <span class="searching__city">Henrico, Virginia</span></div>
+      </div>
+      <div class="searching__item">
+         <img src="../images/success.png" alt="">
+         <div class="searching__info">Reviewing : <span class="searching__reviewing">A+ Rated Companies</span></div>
+      </div>
+   </div>
+</div>
+
+
+  <!-- <script async src="js/webp.min.js"></script> -->
 <script src="js/libs.min.js"></script>
 <script src="js/main.min.js"></script>
 </body>
