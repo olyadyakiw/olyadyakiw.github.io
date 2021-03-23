@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+   <header class="header">
+      <div class="container">
+         <div class="header__inner">
+            <a href="#"><img src="images/logo.png" alt="" class="logo"></a>
+            <nav class="menu">
+               <ul class="menu__list">
+                  <li class="menu__item"><a class="menu__link " href="index.html">Home</a></li>
+                  <li class="menu__item"><a class="menu__link menu__link--active" href="pricing.html">Pricing</a></li>
+                  <li class="menu__item"><a class="menu__link" href="about.html">About</a></li>
+               </ul>
+            </nav>
+            <a href="login.html" class="header__btn"> Login / Register</a>
+            <div class="menu__btn"></div>
+         </div>
+      </div>
+   </header>
+
+   <div class="plan pricing">
+      <img src="images/plan-bg.png" alt="" class="plan__bg">
+      <div class="container">
+         <div class="plan__inner">
+            <img class="plan__img-bg" src="images/main-bg.png" alt="">
+            <div class="plan__title">Choose the plan that's right for you</div>
+            <div class="plan__text">Pay by month or the year, and cancel at any time.</div>
+            <div class="plan__btns">
+               <button data-tab="#tab_1" class="plan__monthly tabs__nav-btn">Monthly</button>
+               <button data-tab="#tab_2" class="plan__annual tabs__nav-btn">Annual</button>
+            </div>
+
+            <div class="plan__items tabs__item" id="tab_1">
+               <div class="plan__item">
+                  <img src="images/plain.png" alt="" class="plan__img">
+                  <div class="plan__item-title">Basic</div>
+                  <div class="plan__benefits">
+                     <div class="plan__benefit"> Unlimited number of rooms</div>
+                     <div class="plan__benefit">Host-up to 100 participants at-once (depends on your cloud)</div>
+                     <div class="plan__benefit">Unlimited meetings</div>
+                     <div class="plan__benefit">Whiteboard</div>
+                     <div class="plan__benefit">Screen sharing</div>
+                     <div class="plan__benefit">Automatic cloud setup</div>
+                  </div>
+                  <div class="plan__price">$12.00 <span>host/mo.</span></div>
+                  <a href="#" class="plan__sign">
+                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                           <path
+                              d="M20.4587 0.263708C16.5545 0.193708 12.102 2.23454 9.28366 5.40037C6.59033 5.45121 3.96783 6.55538 2.03699 8.48621C1.92449 8.59704 1.88449 8.76288 1.93366 8.91288C1.98366 9.06371 2.11366 9.17287 2.27033 9.19537L5.48199 9.65537L5.08533 10.0995C4.93783 10.2645 4.94533 10.5154 5.10199 10.672L10.4578 16.0279C10.5387 16.1087 10.6453 16.1495 10.7528 16.1495C10.852 16.1495 10.9512 16.1145 11.0303 16.0437L11.4745 15.647L11.9345 18.8587C11.957 19.0154 12.0803 19.1304 12.2295 19.1804C12.2678 19.1929 12.3078 19.1987 12.3487 19.1987C12.467 19.1987 12.5878 19.147 12.6712 19.0645C14.5753 17.1604 15.6795 14.5379 15.7303 11.8445C18.8995 9.02038 20.957 4.56954 20.8662 0.670375C20.8603 0.448708 20.6812 0.269542 20.4587 0.263708ZM16.6187 7.45704C16.2128 7.86288 15.6795 8.06621 15.1453 8.06621C14.6112 8.06621 14.0778 7.86288 13.672 7.45704C12.8603 6.64454 12.8603 5.32288 13.672 4.51038C14.4845 3.69787 15.8062 3.69787 16.6187 4.51038C17.4312 5.32288 17.4312 6.64538 16.6187 7.45704Z"
+                              fill="#00C365" />
+                           <path
+                              d="M3.1387 14.3488C2.24703 15.2404 1.02287 19.2688 0.8862 19.7246C0.842034 19.8713 0.882867 20.0305 0.990367 20.1388C1.07037 20.2188 1.1762 20.2613 1.28537 20.2613C1.32537 20.2613 1.36537 20.2555 1.40537 20.2438C1.8612 20.1071 5.88953 18.8829 6.7812 17.9913C7.78537 16.9871 7.78537 15.3529 6.7812 14.3488C5.7762 13.3446 4.14287 13.3454 3.1387 14.3488Z"
+                              fill="#00C365" />
+                        </g>
+                        <defs>
+                           <clipPath id="clip0">
+                              <rect width="20" height="20" fill="white" transform="translate(0.868652 0.26123)" />
+                           </clipPath>
+                        </defs>
+                     </svg>
+                     Sign up</a>
+               </div>
+               <div class="plan__item plan__item-pro">
+                  <img src="images/rocket-big.png" alt="" class="plan__img">
+                  <div class="plan__item-title">Pro</div>
+                  <div class="plan__benefits">
+                     <div class="plan__benefit">All Basic features</div>
+                     <div class="plan__benefit">Up to 100 participants at-once (depends on your cloud)</div>
+                     <div class="plan__benefit">Whitelabeling</div>
+                     <div class="plan__benefit">Webinars</div>
+                     <div class="plan__benefit">Events scheduling</div>
+                     <div class="plan__benefit">Recordings</div>
+                  </div>
+                  <div class="plan__price">$24.00 <span>host/mo.</span></div>
+                  <a href="#" class="plan__sign">
+                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                           <path
+                              d="M20.4587 0.263708C16.5545 0.193708 12.102 2.23454 9.28366 5.40037C6.59033 5.45121 3.96783 6.55538 2.03699 8.48621C1.92449 8.59704 1.88449 8.76288 1.93366 8.91288C1.98366 9.06371 2.11366 9.17287 2.27033 9.19537L5.48199 9.65537L5.08533 10.0995C4.93783 10.2645 4.94533 10.5154 5.10199 10.672L10.4578 16.0279C10.5387 16.1087 10.6453 16.1495 10.7528 16.1495C10.852 16.1495 10.9512 16.1145 11.0303 16.0437L11.4745 15.647L11.9345 18.8587C11.957 19.0154 12.0803 19.1304 12.2295 19.1804C12.2678 19.1929 12.3078 19.1987 12.3487 19.1987C12.467 19.1987 12.5878 19.147 12.6712 19.0645C14.5753 17.1604 15.6795 14.5379 15.7303 11.8445C18.8995 9.02038 20.957 4.56954 20.8662 0.670375C20.8603 0.448708 20.6812 0.269542 20.4587 0.263708ZM16.6187 7.45704C16.2128 7.86288 15.6795 8.06621 15.1453 8.06621C14.6112 8.06621 14.0778 7.86288 13.672 7.45704C12.8603 6.64454 12.8603 5.32288 13.672 4.51038C14.4845 3.69787 15.8062 3.69787 16.6187 4.51038C17.4312 5.32288 17.4312 6.64538 16.6187 7.45704Z"
+                              fill="#00C365" />
+                           <path
+                              d="M3.1387 14.3488C2.24703 15.2404 1.02287 19.2688 0.8862 19.7246C0.842034 19.8713 0.882867 20.0305 0.990367 20.1388C1.07037 20.2188 1.1762 20.2613 1.28537 20.2613C1.32537 20.2613 1.36537 20.2555 1.40537 20.2438C1.8612 20.1071 5.88953 18.8829 6.7812 17.9913C7.78537 16.9871 7.78537 15.3529 6.7812 14.3488C5.7762 13.3446 4.14287 13.3454 3.1387 14.3488Z"
+                              fill="#00C365" />
+                        </g>
+                        <defs>
+                           <clipPath id="clip0">
+                              <rect width="20" height="20" fill="white" transform="translate(0.868652 0.26123)" />
+                           </clipPath>
+                        </defs>
+                     </svg>
+                     Sign up</a>
+               </div>
+               <div class="plan__item">
+                  <img src="images/ufo.png" alt="" class="plan__img">
+                  <div class="plan__item-title">Ultimate</div>
+                  <div class="plan__benefits">
+                     <div class="plan__benefit">All Pro features</div>
+                     <div class="plan__benefit">Webinars scaling - up to 10000 listeners</div>
+                  </div>
+                  <div class="plan__price">$96.00 <span>host/mo.</span></div>
+                  <a href="#" class="plan__sign">
+                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                           <path
+                              d="M20.4587 0.263708C16.5545 0.193708 12.102 2.23454 9.28366 5.40037C6.59033 5.45121 3.96783 6.55538 2.03699 8.48621C1.92449 8.59704 1.88449 8.76288 1.93366 8.91288C1.98366 9.06371 2.11366 9.17287 2.27033 9.19537L5.48199 9.65537L5.08533 10.0995C4.93783 10.2645 4.94533 10.5154 5.10199 10.672L10.4578 16.0279C10.5387 16.1087 10.6453 16.1495 10.7528 16.1495C10.852 16.1495 10.9512 16.1145 11.0303 16.0437L11.4745 15.647L11.9345 18.8587C11.957 19.0154 12.0803 19.1304 12.2295 19.1804C12.2678 19.1929 12.3078 19.1987 12.3487 19.1987C12.467 19.1987 12.5878 19.147 12.6712 19.0645C14.5753 17.1604 15.6795 14.5379 15.7303 11.8445C18.8995 9.02038 20.957 4.56954 20.8662 0.670375C20.8603 0.448708 20.6812 0.269542 20.4587 0.263708ZM16.6187 7.45704C16.2128 7.86288 15.6795 8.06621 15.1453 8.06621C14.6112 8.06621 14.0778 7.86288 13.672 7.45704C12.8603 6.64454 12.8603 5.32288 13.672 4.51038C14.4845 3.69787 15.8062 3.69787 16.6187 4.51038C17.4312 5.32288 17.4312 6.64538 16.6187 7.45704Z"
+                              fill="#00C365" />
+                           <path
+                              d="M3.1387 14.3488C2.24703 15.2404 1.02287 19.2688 0.8862 19.7246C0.842034 19.8713 0.882867 20.0305 0.990367 20.1388C1.07037 20.2188 1.1762 20.2613 1.28537 20.2613C1.32537 20.2613 1.36537 20.2555 1.40537 20.2438C1.8612 20.1071 5.88953 18.8829 6.7812 17.9913C7.78537 16.9871 7.78537 15.3529 6.7812 14.3488C5.7762 13.3446 4.14287 13.3454 3.1387 14.3488Z"
+                              fill="#00C365" />
+                        </g>
+                        <defs>
+                           <clipPath id="clip0">
+                              <rect width="20" height="20" fill="white" transform="translate(0.868652 0.26123)" />
+                           </clipPath>
+                        </defs>
+                     </svg>
+                     Sign up
+                  </a>
+               </div>
+            </div>
+
+            <div class="plan__items tabs__item" id="tab_2">
+               <div class="plan__item">
+                  <img src="images/plain.png" alt="" class="plan__img">
+                  <div class="plan__item-title">Basic</div>
+                  <div class="plan__benefits">
+                     <div class="plan__benefit"> Unlimited number of rooms</div>
+                     <div class="plan__benefit">Host-up to 100 participants at-once (depends on your cloud)</div>
+                     <div class="plan__benefit">Unlimited meetings</div>
+                     <div class="plan__benefit">Whiteboard</div>
+                     <div class="plan__benefit">Screen sharing</div>
+                     <div class="plan__benefit">Automatic cloud setup</div>
+                  </div>
+                  <div class="plan__price">$90.00 <span>host/year.</span></div>
+                  <a href="#" class="plan__sign">
+                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                           <path
+                              d="M20.4587 0.263708C16.5545 0.193708 12.102 2.23454 9.28366 5.40037C6.59033 5.45121 3.96783 6.55538 2.03699 8.48621C1.92449 8.59704 1.88449 8.76288 1.93366 8.91288C1.98366 9.06371 2.11366 9.17287 2.27033 9.19537L5.48199 9.65537L5.08533 10.0995C4.93783 10.2645 4.94533 10.5154 5.10199 10.672L10.4578 16.0279C10.5387 16.1087 10.6453 16.1495 10.7528 16.1495C10.852 16.1495 10.9512 16.1145 11.0303 16.0437L11.4745 15.647L11.9345 18.8587C11.957 19.0154 12.0803 19.1304 12.2295 19.1804C12.2678 19.1929 12.3078 19.1987 12.3487 19.1987C12.467 19.1987 12.5878 19.147 12.6712 19.0645C14.5753 17.1604 15.6795 14.5379 15.7303 11.8445C18.8995 9.02038 20.957 4.56954 20.8662 0.670375C20.8603 0.448708 20.6812 0.269542 20.4587 0.263708ZM16.6187 7.45704C16.2128 7.86288 15.6795 8.06621 15.1453 8.06621C14.6112 8.06621 14.0778 7.86288 13.672 7.45704C12.8603 6.64454 12.8603 5.32288 13.672 4.51038C14.4845 3.69787 15.8062 3.69787 16.6187 4.51038C17.4312 5.32288 17.4312 6.64538 16.6187 7.45704Z"
+                              fill="#00C365" />
+                           <path
+                              d="M3.1387 14.3488C2.24703 15.2404 1.02287 19.2688 0.8862 19.7246C0.842034 19.8713 0.882867 20.0305 0.990367 20.1388C1.07037 20.2188 1.1762 20.2613 1.28537 20.2613C1.32537 20.2613 1.36537 20.2555 1.40537 20.2438C1.8612 20.1071 5.88953 18.8829 6.7812 17.9913C7.78537 16.9871 7.78537 15.3529 6.7812 14.3488C5.7762 13.3446 4.14287 13.3454 3.1387 14.3488Z"
+                              fill="#00C365" />
+                        </g>
+                        <defs>
+                           <clipPath id="clip0">
+                              <rect width="20" height="20" fill="white" transform="translate(0.868652 0.26123)" />
+                           </clipPath>
+                        </defs>
+                     </svg>
+                     Sign up</a>
+               </div>
+               <div class="plan__item plan__item-pro">
+                  <img src="images/rocket-big.png" alt="" class="plan__img">
+                  <div class="plan__item-title">Pro</div>
+                  <div class="plan__benefits">
+                     <div class="plan__benefit">All Basic features</div>
+                     <div class="plan__benefit">Up to 100 participants at-once (depends on your cloud)</div>
+                     <div class="plan__benefit">Whitelabeling</div>
+                     <div class="plan__benefit">Webinars</div>
+                     <div class="plan__benefit">Events scheduling</div>
+                     <div class="plan__benefit">Recordings</div>
+                  </div>
+                  <div class="plan__price">$120.00 <span>host/year.</span></div>
+                  <a href="#" class="plan__sign">
+                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                           <path
+                              d="M20.4587 0.263708C16.5545 0.193708 12.102 2.23454 9.28366 5.40037C6.59033 5.45121 3.96783 6.55538 2.03699 8.48621C1.92449 8.59704 1.88449 8.76288 1.93366 8.91288C1.98366 9.06371 2.11366 9.17287 2.27033 9.19537L5.48199 9.65537L5.08533 10.0995C4.93783 10.2645 4.94533 10.5154 5.10199 10.672L10.4578 16.0279C10.5387 16.1087 10.6453 16.1495 10.7528 16.1495C10.852 16.1495 10.9512 16.1145 11.0303 16.0437L11.4745 15.647L11.9345 18.8587C11.957 19.0154 12.0803 19.1304 12.2295 19.1804C12.2678 19.1929 12.3078 19.1987 12.3487 19.1987C12.467 19.1987 12.5878 19.147 12.6712 19.0645C14.5753 17.1604 15.6795 14.5379 15.7303 11.8445C18.8995 9.02038 20.957 4.56954 20.8662 0.670375C20.8603 0.448708 20.6812 0.269542 20.4587 0.263708ZM16.6187 7.45704C16.2128 7.86288 15.6795 8.06621 15.1453 8.06621C14.6112 8.06621 14.0778 7.86288 13.672 7.45704C12.8603 6.64454 12.8603 5.32288 13.672 4.51038C14.4845 3.69787 15.8062 3.69787 16.6187 4.51038C17.4312 5.32288 17.4312 6.64538 16.6187 7.45704Z"
+                              fill="#00C365" />
+                           <path
+                              d="M3.1387 14.3488C2.24703 15.2404 1.02287 19.2688 0.8862 19.7246C0.842034 19.8713 0.882867 20.0305 0.990367 20.1388C1.07037 20.2188 1.1762 20.2613 1.28537 20.2613C1.32537 20.2613 1.36537 20.2555 1.40537 20.2438C1.8612 20.1071 5.88953 18.8829 6.7812 17.9913C7.78537 16.9871 7.78537 15.3529 6.7812 14.3488C5.7762 13.3446 4.14287 13.3454 3.1387 14.3488Z"
+                              fill="#00C365" />
+                        </g>
+                        <defs>
+                           <clipPath id="clip0">
+                              <rect width="20" height="20" fill="white" transform="translate(0.868652 0.26123)" />
+                           </clipPath>
+                        </defs>
+                     </svg>
+                     Sign up</a>
+               </div>
+               <div class="plan__item">
+                  <img src="images/ufo.png" alt="" class="plan__img">
+                  <div class="plan__item-title">Ultimate</div>
+                  <div class="plan__benefits">
+                     <div class="plan__benefit">All Pro features</div>
+                     <div class="plan__benefit">Webinars scaling - up to 10000 listeners</div>
+                  </div>
+                  <div class="plan__price">$200.00 <span>host/year.</span></div>
+                  <a href="#" class="plan__sign">
+                     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0)">
+                           <path
+                              d="M20.4587 0.263708C16.5545 0.193708 12.102 2.23454 9.28366 5.40037C6.59033 5.45121 3.96783 6.55538 2.03699 8.48621C1.92449 8.59704 1.88449 8.76288 1.93366 8.91288C1.98366 9.06371 2.11366 9.17287 2.27033 9.19537L5.48199 9.65537L5.08533 10.0995C4.93783 10.2645 4.94533 10.5154 5.10199 10.672L10.4578 16.0279C10.5387 16.1087 10.6453 16.1495 10.7528 16.1495C10.852 16.1495 10.9512 16.1145 11.0303 16.0437L11.4745 15.647L11.9345 18.8587C11.957 19.0154 12.0803 19.1304 12.2295 19.1804C12.2678 19.1929 12.3078 19.1987 12.3487 19.1987C12.467 19.1987 12.5878 19.147 12.6712 19.0645C14.5753 17.1604 15.6795 14.5379 15.7303 11.8445C18.8995 9.02038 20.957 4.56954 20.8662 0.670375C20.8603 0.448708 20.6812 0.269542 20.4587 0.263708ZM16.6187 7.45704C16.2128 7.86288 15.6795 8.06621 15.1453 8.06621C14.6112 8.06621 14.0778 7.86288 13.672 7.45704C12.8603 6.64454 12.8603 5.32288 13.672 4.51038C14.4845 3.69787 15.8062 3.69787 16.6187 4.51038C17.4312 5.32288 17.4312 6.64538 16.6187 7.45704Z"
+                              fill="#00C365" />
+                           <path
+                              d="M3.1387 14.3488C2.24703 15.2404 1.02287 19.2688 0.8862 19.7246C0.842034 19.8713 0.882867 20.0305 0.990367 20.1388C1.07037 20.2188 1.1762 20.2613 1.28537 20.2613C1.32537 20.2613 1.36537 20.2555 1.40537 20.2438C1.8612 20.1071 5.88953 18.8829 6.7812 17.9913C7.78537 16.9871 7.78537 15.3529 6.7812 14.3488C5.7762 13.3446 4.14287 13.3454 3.1387 14.3488Z"
+                              fill="#00C365" />
+                        </g>
+                        <defs>
+                           <clipPath id="clip0">
+                              <rect width="20" height="20" fill="white" transform="translate(0.868652 0.26123)" />
+                           </clipPath>
+                        </defs>
+                     </svg>
+                     Sign up
+                  </a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="tariff">
+      <div class="container">
+         <div class="tariff__inner">
+            <div class="tariff__title">Full comparison of tariff plans</div>
+            <table>
+               <tr>
+                  <td></td>
+                  <td>Basic</td>
+                  <td>Pro</td>
+                  <td>Ultimate</td>
+               </tr>
+               <tr>
+                  <td>Number of participants</td>
+                  <td>100</td>
+                  <td>100</td>
+                  <td>300</td>
+               </tr>
+               <tr>
+                  <td>Screen demonstration</td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+               </tr>
+
+               <tr>
+                  <td>Session rooms</td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+               </tr>
+               <tr>
+                  <td>Virtual background</td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+               </tr>
+               <tr>
+                  <td>Personal Conference ID</td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+               </tr>
+               <tr>
+                  <td>Private and group chat</td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+               </tr>
+               <tr>
+                  <td>Organizer controls</td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+               </tr>
+               <tr>
+                  <td>Polls</td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+               </tr>
+               <tr>
+                  <td>PJoint comments on general </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+               </tr>
+               <tr>
+                  <td>Sharing </td>
+                  <td>
+                     <img src="images/no-check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+               </tr>
+               <tr>
+                  <td>Streaming </td>
+                  <td>
+                     <img src="images/no-check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+               </tr>
+               <tr>
+                  <td>Reporting </td>
+                  <td>
+                     <img src="images/no-check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+               </tr>
+               <tr>
+                  <td>User management</td>
+                  <td>
+                     <img src="images/no-check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+               </tr>
+               <tr>
+                  <td>Admin Portal </td>
+                  <td>
+                     <img src="images/no-check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+               </tr>
+               <tr>
+                  <td>Decryption of cloud recordings </td>
+                  <td>
+                     <img src="images/no-check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/no-check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+               </tr>
+               <tr>
+                  <td>Managed domains</td>
+                  <td>
+                     <img src="images/no-check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/no-check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+               </tr>
+               <tr>
+                  <td>Administrative Reviews </td>
+                  <td>
+                     <img src="images/no-check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/no-check.png" alt="">
+                  </td>
+                  <td>
+                     <img src="images/check.png" alt="">
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </div>
+   </div>
+
+   <div class="questions">
+      <div class="container">
+         <div class="questions__inner">
+            <div class="questions__title">Frequently Asked Questions</div>
+            <div class="questions__tabs">
+               <div class="questions__item">
+                  <div class="questions__header">
+                     <div class="questions__item-title">Can I cancel at any time? </div>
+                     <div class="questions__btn">
+                        <img src="images/cross.png" alt="" class="questions__cross">
+                     </div>
+                  </div>
+                  <div class="questions__item-content">Yes, you can cancel and upgrade or downgrade your plan at any
+                     time.</div>
+               </div>
+               <div class="questions__item">
+                  <div class="questions__header">
+                     <div class="questions__item-title">Are there larger plans? </div>
+                     <div class="questions__btn">
+                        <img src="images/cross.png" alt="" class="questions__cross">
+                     </div>
+                  </div>
+                  <div class="questions__item-content">Yes, you can cancel and upgrade or downgrade your plan at any
+                     time.</div>
+               </div>
+               <div class="questions__item">
+                  <div class="questions__header">
+                     <div class="questions__item-title">How are users counted? </div>
+                     <div class="questions__btn">
+                        <img src="images/cross.png" alt="" class="questions__cross">
+                     </div>
+                  </div>
+                  <div class="questions__item-content">Yes, you can cancel and upgrade or downgrade your plan at any
+                     time.</div>
+               </div>
+               <div class="questions__item">
+                  <div class="questions__header">
+                     <div class="questions__item-title">Can I export my data? </div>
+                     <div class="questions__btn">
+                        <img src="images/cross.png" alt="" class="questions__cross">
+                     </div>
+                  </div>
+                  <div class="questions__item-content">Yes, you can cancel and upgrade or downgrade your plan at any
+                     time.</div>
+               </div>
+               <div class="questions__item">
+                  <div class="questions__header">
+                     <div class="questions__item-title">Can I invite clients? </div>
+                     <div class="questions__btn">
+                        <img src="images/cross.png" alt="" class="questions__cross">
+                     </div>
+                  </div>
+                  <div class="questions__item-content">Yes, you can cancel and upgrade or downgrade your plan at any
+                     time.</div>
+               </div>
+               <div class="questions__item">
+                  <div class="questions__header">
+                     <div class="questions__item-title">Do you have a money back guarantee?
+                     </div>
+                     <div class="questions__btn">
+                        <img src="images/cross.png" alt="" class="questions__cross">
+                     </div>
+                  </div>
+                  <div class="questions__item-content">Yes, you can cancel and upgrade or downgrade your plan at any
+                     time.</div>
+               </div>
+               <div class="questions__item">
+                  <div class="questions__header">
+                     <div class="questions__item-title">Can I watch a demo? </div>
+                     <div class="questions__btn">
+                        <img src="images/cross.png" alt="" class="questions__cross">
+                     </div>
+                  </div>
+                  <div class="questions__item-content">Yes, you can cancel and upgrade or downgrade your plan at any
+                     time.</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__inner">
+            <div class="footer__column footer__column-1">
+               <img src="images/logo.png" alt="" class="footer__logo">
+               <div class="footer__socials">
+                  <a href="#" class="footer__socials-link youtube"></a>
+                  <a href="#" class="footer__socials-link facebook"></a>
+                  <a href="#" class="footer__socials-link instagram"></a>
+                  <a href="#" class="footer__socials-link twitter"></a>
+               </div>
+            </div>
+            <div class="footer__column">
+               <div class="footer__column-title">Company</div>
+               <div class="footer__column-list">
+                  <a href="#" class="footer__column-item">Home</a>
+                  <a href="#" class="footer__column-item">Pricing</a>
+                  <a href="#" class="footer__column-item">About</a>
+               </div>
+            </div>
+            <div class="footer__column">
+               <div class="footer__column-title">Legal</div>
+               <div class="footer__column-list">
+                  <a href="#" class="footer__column-item">Terms of Service</a>
+                  <a href="#" class="footer__column-item">Privacy Policy</a>
+               </div>
+            </div>
+            <div class="footer__column">
+               <div class="footer__column-title">Contact Us</div>
+               <div class=" footer__column-list footer__column-list-4">
+                  <a href="#" class="footer__column-item address">GreenRoom, LLC 25096 Jefferson Ave. STE A-4 Murrieta,
+                     CA 92562</a>
+                  <a href="#" class="footer__column-item phone">(844) 422-8347</a>
+                  <a href="#" class="footer__column-item email">welcome@greenroom.com</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script src="js/main.min.js"></script>
+   <script src="js/magic-line-pricing.js"></script>
+</body>
+
+</html>

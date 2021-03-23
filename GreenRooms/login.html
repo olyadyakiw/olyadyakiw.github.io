@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+   <header class="header">
+      <div class="container">
+         <div class="header__inner">
+            <a href="#"><img src="images/logo.png" alt="" class="logo"></a>
+            <nav class="menu">
+               <ul class="menu__list">
+                  <li class="menu__item"><a class="menu__link " href="index.html">Home</a></li>
+                  <li class="menu__item"><a class="menu__link menu__link--active" href="pricing.html">Pricing</a></li>
+                  <li class="menu__item"><a class="menu__link" href="about.html">About</a></li>
+               </ul>
+            </nav>
+            <a href="login.html" class="header__btn"> Login / Register</a>
+            <div class="menu__btn"></div>
+         </div>
+      </div>
+   </header>
+
+   <div class="form">
+      <div class="container">
+         <div class="form__inner">
+            <div class="form__title">Login</div>
+            <form action="" class="form__form">
+               <input type="email" class="form__input" placeholder="Email">
+               <input type="password" class="form__input" placeholder="Password">
+               <div class="form__forgot">Forgot Your Password?</div>
+               <div class="form__authentication">Authentication</div>
+               <div class="tabs">
+                  <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+                  <label for="tab-btn-1">Social media</label>
+                  <input type="radio" name="tab-btn" id="tab-btn-2" value="">
+                  <label for="tab-btn-2">Code om phone</label>
+                  <input type="radio" name="tab-btn" id="tab-btn-3" value="">
+                  <label for="tab-btn-3">Magic link</label>
+
+                  <div class="form__item-social" id="content-1">
+                     <div class="form__social">
+                        <a href="" class="form__social-link">
+                           <img src="images/google.png" alt="" class="form__social-img">
+                        </a>
+                     </div>
+                     <div class="form__social">
+                        <a href="" class="form__social-link">
+                           <img src="images/fb.png" alt="" class="form__social-img">
+                        </a>
+                     </div>
+                     <div class="form__social">
+                        <a href="" class="form__social-link">
+                           <img src="images/linkedin.png" alt="" class="form__social-img">
+                        </a>
+                     </div>
+                  </div>
+                  <div class="form__item" id="content-2">
+                     <div class="form__phone-code">Enter the 4 digit code sent to your phone number</div>
+                     <input type="text" class="form__input" placeholder="Code">
+                     <div class="form__resend-code">Resend code</div>
+                     <div class="form__phone-btn">Continue</div>
+                  </div>
+                  <div class="form__item-magic" id="content-3">
+                     A link has been sent to your email, please follow the link to get authenticated. Didn't receive a
+                     letter? <a href="#">Resend</a> 
+
+                  </div>
+               </div>
+               <button class="form__button" type="submit">Login</button>
+               <div class="form__account">No account? <a href="register.html" class="form__link">Register</a></div>
+            </form>
+         </div>
+      </div>
+   </div>
+
+   <footer class="footer">
+      <div class="container">
+         <div class="footer__inner">
+            <div class="footer__column footer__column-1">
+               <img src="images/logo.png" alt="" class="footer__logo">
+               <div class="footer__socials">
+                  <a href="#" class="footer__socials-link youtube"></a>
+                  <a href="#" class="footer__socials-link facebook"></a>
+                  <a href="#" class="footer__socials-link instagram"></a>
+                  <a href="#" class="footer__socials-link twitter"></a>
+               </div>
+            </div>
+            <div class="footer__column">
+               <div class="footer__column-title">Company</div>
+               <div class="footer__column-list">
+                  <a href="#" class="footer__column-item">Home</a>
+                  <a href="#" class="footer__column-item">Pricing</a>
+                  <a href="#" class="footer__column-item">About</a>
+               </div>
+            </div>
+            <div class="footer__column">
+               <div class="footer__column-title">Legal</div>
+               <div class="footer__column-list">
+                  <a href="#" class="footer__column-item">Terms of Service</a>
+                  <a href="#" class="footer__column-item">Privacy Policy</a>
+               </div>
+            </div>
+            <div class="footer__column">
+               <div class="footer__column-title">Contact Us</div>
+               <div class=" footer__column-list footer__column-list-4">
+                  <a href="#" class="footer__column-item address">GreenRoom, LLC 25096 Jefferson Ave. STE A-4 Murrieta,
+                     CA 92562</a>
+                  <a href="#" class="footer__column-item phone">(844) 422-8347</a>
+                  <a href="#" class="footer__column-item email">welcome@greenroom.com</a>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <script src="js/main.min.js"></script>
+   <script src="js/magic-line-home.js"></script>
+</body>
+
+</html>
