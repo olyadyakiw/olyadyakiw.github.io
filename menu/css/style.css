@@ -1,0 +1,101 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.menu__title {
+    font-size: 48px;
+    text-align: center;
+    color: rgb(241, 141, 59);
+    font-weight: 700;
+}
+
+.menu__subtitle {
+    font-size: 32px;
+    color: rgb(241, 141, 59);
+    font-weight: 700;    
+}
+
+.menu {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.menu__item {
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    transition: all .3s;
+    position: relative;
+    border: 1px solid #000;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.menu__item.active,
+.menu__item:hover {
+    border: 1px solid rgb(241, 141, 59);
+}
+
+.menu__header {
+    padding: 10px 20px;
+    cursor:pointer;
+    transition: all .4s;
+}
+
+.menu__header:hover,
+.menu__header.active {
+    color: #fff;
+    background-color: rgb(241, 141, 59);
+}
+
+
+.menu__item + .menu__item {
+    margin-top: 15px;
+}
+
+.menu__content {
+    max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  padding-left: 50px;
+}
+
+.menu__product + .menu__product {
+    margin-top: 10px;
+}
+
+.menu__product {
+    position: relative;
+}
+
+.menu__product:first-child {
+    margin-top: 20px;
+}
+
+.menu__product:last-child {
+    margin-bottom: 20px;
+}
+
+.menu__product:before {
+    position: absolute;
+    content: '';
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color: rgb(241, 141, 59);
+    left: -15px;
+    top: 10px;
+}
