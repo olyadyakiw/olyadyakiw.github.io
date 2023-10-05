@@ -1,0 +1,135 @@
+.text-grey {
+	color: var(--color-grey) !important;
+}
+
+.bg-grey {
+	background-color: var(--color-grey) !important;
+}
+
+.text-grey-light {
+	color: var(--color-grey-light) !important;
+}
+
+.bg-grey-light {
+	background-color: var(--color-grey-light) !important;
+}
+
+.text-grey-medium {
+	color: var(--color-grey-medium) !important;
+}
+
+.bg-grey-medium {
+	background-color: var(--color-grey-medium) !important;
+}
+
+.text-purple {
+	color: var(--color-purple) !important;
+}
+
+.bg-purple {
+	background-color: var(--color-purple) !important;
+}
+
+.text-red {
+	color: var(--color-red) !important;
+}
+
+.bg-red {
+	background-color: var(--color-red) !important;
+}
+
+.text-green {
+	color: var(--color-green) !important;
+}
+
+.bg-green {
+	background-color: var(--color-green) !important;
+}
+
+.text-white {
+	color: var(--color-white) !important;
+}
+
+.bg-white {
+	background-color: var(--color-white) !important;
+}
+
+:root {
+	--rem-base: 10px;
+	--base-font-size: 22px;
+	--base-line-height: 1.4;
+	--vertical-rhythm: calc(var(--base-line-height) * 1em);
+	--brand-color: #3e4642;
+	--brand-color-dark: #1a1d1c;
+	--brand-color-light: #626f68;
+	--accent-color: #00e;
+	--accent-color-dark: #0000a2;
+	--accent-color-light: #0000a2;
+	--base-text-color: var(--color-grey);
+	--base-link-color: var(--base-text-color);
+	--h1-h6-color: var(--base-text-color);
+	--color-grey: #3e4642;
+	--color-grey-light: #efefed;
+	--color-grey-medium: #eaeae8;
+	--color-purple: #00e;
+	--color-red: #f55;
+	--color-green: #81eeb7;
+	--color-white: #fff;
+	--animation-duration: 0.3s;
+	--animation-timing-function: ease;
+	--input-x: 40px;
+	--gutter: 20px;
+	--input-color: #4b4a4a;
+	--input-placeholder-color: #7e7d7d;
+	--input-bg-color: white;
+	--input-radius: 3px;
+	--input-border-color: #eee;
+	--input-focus-border-color: #cdcdcd;
+	--form-theme-color: #3e4642;
+	--checkbox-size: 18px;
+	--radio-size: 18px;
+	--label-fz: 13px;
+	--label-color: #4b4a4a;
+	--error-color: #e04562;
+	--error-bg-color: #fadee3;
+	--form-col-gutter: 15px;
+	--form-row-margin: 22.5px;
+	--h1: 3.2rem;
+	--h2: 2.4rem;
+	--h3: 2.2rem;
+	--h4: 2rem;
+	--h5: 18px;
+	--h6: 16px;
+	--btn-y: 23px;
+	--btn-x: 40px;
+	--btn-b: 2px;
+	--btn-r: 0px;
+	--btn-fz: 24px;
+}
+
+@media (max-width: 768px) {
+	:root {
+		--h1: 27px;
+		--h2: 22px;
+		--h3: 20px;
+		--h4: 18px;
+		--h5: 17px;
+		--h6: 16px;
+	}
+}
+
+@media (max-width: 667px) {
+	:root {
+		--btn-y: 2.3rem;
+		--btn-x: 4rem;
+		--btn-b: 2px;
+		--btn-r: 0;
+		--btn-fz: 22px;
+	}
+}
+
+@media (min-width: 812px) and (max-height: 414px) and (orientation: landscape) {
+	:root {
+		--gutter: 50px;
+	}
+}
